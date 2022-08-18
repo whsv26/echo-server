@@ -10,7 +10,7 @@ object Main extends IOApp {
 
   val route: HttpRoutes[IO] =
     HttpRoutes.of[IO] {
-      case GET -> Root / "ping" => Ok("pong! version 1.0.0")
+      case GET -> Root / "ping" => Ok("pong! version 1.1.0")
     }
 
   override def run(args: List[String]): IO[ExitCode] = {

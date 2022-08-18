@@ -5,7 +5,7 @@ ThisBuild / scalaVersion := "2.13.8"
 lazy val root = (project in file("."))
   .settings(
     name := "echo-server",
-    version := "1.0.0",
+    version := "1.1.0",
     libraryDependencies ++= Seq(
       "org.http4s" %% "http4s-dsl" % "0.23.14",
       "org.http4s" %% "http4s-blaze-server" % "0.23.12",
